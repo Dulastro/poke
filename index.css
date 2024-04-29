@@ -1,0 +1,31 @@
+main {
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px 300px;
+  gap: 1rem;
+  font-size: 0.7em;
+}
+.Pokemon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  background-color: #222;
+}
+.Pokemon img {
+  height: 5rem;
+}
+h2 {
+  font-size: 2.5em;
+  font-family: "Poppins", sans-serif;
+}
+
+.poke {
+  display: flex;
+  background-color: #222;
+  height: 200px;
+  width: 200px;
+}
+.poke img {
+  height: 110px;
+}
